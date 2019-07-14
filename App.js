@@ -23,7 +23,7 @@ const App = () => {
       <StatusBar backgroundColor="red" animated={true} />
 
 
-      <Header />
+      <Header title={'Clothes'} />
 
       <ScrollView contentContainerStyle={{flex:1}}  style={{  flex:1, height:"100%",paddingVertical:20}} >
 
