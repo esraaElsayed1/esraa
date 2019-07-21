@@ -15,10 +15,10 @@ const Login = () => {
 <Content >
 
 <Body>
-    <H2  > Log into</H2>
+    <H2  > Log in</H2>
     </Body>
     <Form>
-    <Item  stackedLabel>
+    {/* <Item  stackedLabel>
         <Left>
             <Icon name="user"/>
         </Left>
@@ -27,15 +27,27 @@ const Login = () => {
         
               <Input  selection/>
               </Body>
-            </Item>
+            </Item> */}
+              <Item floatingLabel>
+            {/* <Item  regular> */}
+              
+            <Left>
+            <Icon name="user"/>
+            </Left>
+       
+            <Label  >Mobile</Label>
+              <Input />
+              
+              </Item>
+              {/* </Item> */}
             </Form>
                 <Button border rounded danger style={{ flex: 1, alignItems: "center", justifyContent: "center", shadowOpacity: 0.8, shadowColor: "grey" }}>
-                   <Body>
-                    <Text style={{ fontSize: 12 }}>LOG IN </Text>
-                    </Body>
-                    <Right>
-                    <Icon  style={{fontSize:14}} name="chevron-circle-right"/>
-                    </Right>
+                   
+                    <Text style={{ fontSize: 12,padding:40 }}>LOG IN </Text>
+                    
+                   
+                    <Icon  style={{fontSize:25,}} name="chevron-circle-right"/>
+                    
                 </Button>
 
                 <TouchableOpacity>
