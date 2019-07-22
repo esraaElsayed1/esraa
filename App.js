@@ -61,8 +61,8 @@ import Login from './tabs/login'
 // }
   return (
 
-//<Page/>
-<Login />
+<Page/>
+//<Login />
     // <Router>
     //   <Stack key="root">
     //   <Scene key="register"  component={Register} hideNavBar={true}/>
