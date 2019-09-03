@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, View,TouchableOpacity} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-Header =()=>{
+Header =({title})=>{
     return(
     <View style={{height:40,backgroundColor:"red"}}>
     <View style={{flex:1,flexDirection:"row"}}>
@@ -10,7 +10,7 @@ Header =()=>{
     <Icon name="shopping-bag" size={25} color="#fff" ></Icon>
     </TouchableOpacity>
     <View style={{flex:5,alignItems:"center",justifyContent:"center"}}> 
-    <Text style={{fontSize:25,color:"white",fontWeight:'bold'}}>electronics</Text>
+    <Text style={{fontSize:25,color:"white",fontWeight:'bold'}}>{title}</Text>
     </View>
     <TouchableOpacity style={{flex:1,alignItems:"center",justifyContent:"center"}}>
     <Icon name="arrow-left" size={25} color="#fff" ></Icon>
